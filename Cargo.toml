@@ -1,0 +1,8 @@
+[package]
+name = "font-subset-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mkwebfont_hb-subset = "0.5.0"
+woff2-sys = { path = "./woff2-sys" }
